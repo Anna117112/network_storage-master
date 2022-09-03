@@ -1,0 +1,21 @@
+
+Работа за неделю
+- передача файлов с клиента на сервер и обратро
+- навигация по папкам
+ - авторзация через базу данных
+
+код на сервере
+//переход в родительскую дирректрию для сервера
+    public void upServerFiles(ActionEvent actionEvent) throws IOException {
+        network.write(new PathUpRequest(" "));// передаем имя файла на сервер
+
+
+        код на клиенте
+         else if (cloudMessage instanceof PathUpRequest pathUpRequest){
+                   currentDir = currentDir.getParent();
+                        ctx.writeAndFlush(new ListFiles(currentDir));
+
+                    }
+                    Вопрос :
+  При переходе в родительскую дирректории переходить в корневую папку  server_files а должен
+  останавливатся на папке клиента которая создается при авторизуции клиента
