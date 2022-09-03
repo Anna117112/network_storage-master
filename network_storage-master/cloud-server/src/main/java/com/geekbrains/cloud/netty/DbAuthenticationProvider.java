@@ -16,7 +16,6 @@ public class DbAuthenticationProvider {
             while (rs.next()) {
                 System.out.println(rs.getString(2));
                 return (rs.getString(2));
-
             }
         } catch (SQLException e) {
             e.printStackTrace();

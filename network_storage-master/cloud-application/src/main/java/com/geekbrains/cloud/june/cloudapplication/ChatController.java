@@ -35,7 +35,6 @@ public class ChatController implements Initializable {
     @FXML
     public Button boxDelete;
 
-
     private String homeDir;
 
     @FXML

@@ -18,7 +18,6 @@ public PathInRequest(String filename, String nameList)throws IOException{
     this.name = filename;
     //this.list = nameList;
 
-
 }
 
 

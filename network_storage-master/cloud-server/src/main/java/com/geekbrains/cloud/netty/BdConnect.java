@@ -24,7 +24,6 @@ public class BdConnect {
             e.printStackTrace();
             throw new RuntimeException("Невозможно подключиться к базе данных");
         }
-
     }
 
 //    public static void main(String[] args) {
