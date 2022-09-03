@@ -17,7 +17,6 @@ public class Network {
         os = new ObjectEncoderOutputStream(socket.getOutputStream());
         is = new ObjectDecoderInputStream(socket.getInputStream());
     }
-
     public CloudMessage read() throws IOException, ClassNotFoundException {
         return (CloudMessage) is.readObject();
     }
