@@ -17,7 +17,6 @@ public class CloudServer {
     private DbAuthenticationProvider dbAuthenticationProvider;
 
     public CloudServer() {
-
         EventLoopGroup auth = new NioEventLoopGroup(1);
         EventLoopGroup worker = new NioEventLoopGroup();
 

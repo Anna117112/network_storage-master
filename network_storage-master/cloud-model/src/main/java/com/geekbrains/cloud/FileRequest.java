@@ -6,6 +6,4 @@ import lombok.Data;
 public class FileRequest implements CloudMessage {
 
     private final String name;
-
-
 }

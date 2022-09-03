@@ -11,7 +11,6 @@ public class FileMessage implements CloudMessage {
 
     private final long size;
     private final byte[] data;
-
     private final String name;
 
     public FileMessage(Path path) throws IOException {

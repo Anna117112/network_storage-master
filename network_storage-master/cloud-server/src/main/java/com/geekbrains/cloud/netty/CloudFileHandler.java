@@ -23,7 +23,6 @@ public class CloudFileHandler extends SimpleChannelInboundHandler<CloudMessage> 
 
         currentDir = Path.of("server_files").resolve(nik);
     }
-
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
 

@@ -8,6 +8,7 @@ import lombok.Data;
 public class PathUpRequest implements CloudMessage {
     private final String name;
 
+
 //    public String getNameListView() {
 //        return nameListView;
 //    }
